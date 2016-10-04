@@ -1,0 +1,20 @@
+html {
+  overflow: -moz-scrollbars-vertical;
+  width: 100%;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.anchor {
+  outline: 0;
+}
+
+object,
+.navigation > .title {
+  display: none;
+}

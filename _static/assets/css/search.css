@@ -1,0 +1,65 @@
+.form.search {
+  position: absolute;
+  right: 12.5vw;
+  top: 2.760vw;
+  z-index: 1;
+}
+
+.form.search .fieldset > .title {
+  display: none;
+}
+
+.form.search .field {
+  overflow: hidden;
+}
+
+.form.search .field .input,
+.form.search .field .title:before {
+  cursor: pointer;
+}
+
+.form.search .field .input {
+  background-color: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 2vw;
+  color: #fff;
+  font-family: 'peace-sans';
+  font-size: 1.5vw;
+  outline: 0;
+  overflow: hidden;
+  padding: 0.5vw 1.75vw;
+  text-align: center;
+  text-overflow: hidden;
+  transition: color ease-out 0.2s, background-color ease-out 0.2s, width ease-out 0.3s;
+  width: 0;
+}
+
+.form.search .field .input:focus {
+  background-color: rgba(255, 255, 255, 1);
+  color: #000;
+  width: 10vw;
+}
+
+.form.search .field .title {
+  font-size: 0;
+  overflow: hidden;
+  text-indent: -9999px;
+}
+
+.form.search .field .title:before {
+  color: #fff;
+  content: '\e901';
+  display: block;
+  font-family: 'dulce-delight';
+  font-size: 2.5vw;
+  left: 50%;
+  position: absolute;
+  text-indent: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+}
+
+.form.search .control {
+  display: none;
+}

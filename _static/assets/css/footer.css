@@ -1,0 +1,230 @@
+.footer {
+  background-color: #f5f5f5;
+  padding-top: 3.958vw;
+  position: relative;
+  z-index: 4;
+}
+
+.footer,
+.footer .navigation {
+  overflow: hidden;
+}
+
+.footer .social,
+.footer .social > .title,
+.footer .social .collection,
+.footer .contact,
+.footer .contact .title,
+.footer .contact .description,
+.footer .external,
+.footer .external > .title,
+.footer .external .collection,
+.footer .item {
+  float: left;
+  position: relative;
+}
+
+.footer .anchor {
+  text-decoration: none;
+}
+
+.footer .social:after,
+.footer .contact:after,
+.footer .external:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.footer .social > .title,
+.footer .contact .title,
+.footer .external > .title {
+  color: #764d30;
+  display: block;
+  font-family: 'nickainley';
+  font-size: 2.25vw;
+  margin-top: 1vw;
+  padding-right: 0.5vw;
+  position: relative;
+  top: 50%;
+}
+
+.footer .social > .title:after,
+.footer .contact .title:after,
+.footer .external > .title:after {
+  bottom: 0;
+  content: ':';
+  display: block;
+  right: -0.1vw;
+  position: absolute;
+}
+
+.footer .social {
+  margin-left: 1.5vw;
+}
+
+.footer .social .collection {
+  margin-top: 1vw;
+}
+
+.footer .social .item {
+  margin-left: 1vw;
+}
+
+.footer .social .anchor {
+  border: solid 3px #82cabf;
+  border-radius: 50%;
+  display: block;
+  height: 3.229vw;
+  font-size: 0;
+  overflow: hidden;
+  position: relative;
+  transition: border-color ease-out 0.2s;
+  width: 3.229vw;
+}
+
+.footer .social .anchor:hover,
+.footer .social .anchor:focus {
+  border-color: #543825;
+}
+
+.footer .social .anchor:before {
+  color: #82cabf;
+  display: block;
+  font-family: 'dulce-delight';
+  font-size: 1.5vw;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  text-indent: 0;
+  transform: translate(-50%, -50%);
+  transition: color ease-out 0.2s;
+}
+
+.footer .social .anchor:hover:before,
+.footer .social .anchor:focus:before {
+  color: #543825;
+}
+
+.footer .youtube .anchor:before {
+  content: '\e909';
+}
+
+.footer .facebook .anchor:before {
+  content: '\e90a';
+}
+
+.footer .instagram .anchor:before {
+  content: '\e90b';
+}
+
+.footer .twitter .anchor:before {
+  content: '\e90c';
+}
+
+.footer .contact {
+  margin-left: 3vw;
+}
+
+.footer .contact .anchor {
+  color: #82cabf;
+  font-family: 'peace-sans';
+  font-size: 1.75vw;
+  text-transform: uppercase;
+  transition: color ease-out 0.2s;
+}
+
+.footer .contact .anchor:hover,
+.footer .contact .anchor:focus {
+  color: #543825;
+}
+
+.footer .contact .description {
+  margin: 1.6vw 0 0 0.781vw;
+}
+
+.footer .external {
+  margin: 0 0 3.958vw 3vw;
+}
+
+.footer .external .anchor,
+.footer .claims .anchor {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: block;
+  overflow: hidden;
+  text-indent: -9999px;
+  transition: opacity ease-out 0.5s;
+}
+
+.footer .external .anchor:hover,
+.footer .external .anchor:focus {
+  opacity: 0.5;
+}
+
+.footer .rainha-da-cocada {
+  margin: 0.312vw 0 0 1.666vw;
+}
+
+.footer .rainha-da-cocada .anchor {
+  background-image: url(../image/brand/rainha-da-cocada-140x99.png);
+  height: 5.156vw;
+  width: 7.291vw;
+}
+
+.footer .dulce-delight-store {
+  margin: 0.625vw 0 0 1.875vw;
+}
+
+.footer .dulce-delight-store .anchor {
+  background-image: url(../image/brand/dulce-delight-store-135x88.png);
+  height: 4.583vw;
+  width: 7.031vw;
+}
+
+.footer .dulce-delight .anchor {
+  margin-left: 1.197vw;
+}
+
+.footer .dulce-delight .anchor {
+  background-image: url(../image/brand/dulce-delight-141x110.png);
+  height: 5.729vw;
+  width: 7.343vw;
+}
+
+.footer .claims {
+  clear: both;
+}
+
+.footer .battle-lab {
+  margin: 1.562vw 0 1.25vw 0;
+  position: relative;
+  width: 100%;
+}
+
+.footer .battle-lab:before {
+  background-color: #e5e5e5;
+  content: '';
+  display: block;
+  height: 200px;
+  left: 0;
+  position: absolute;
+  top: -1.562vw;
+  width: 100vw;
+  z-index: -1;
+}
+
+.footer .battle-lab .anchor {
+  background-image: url(../image/brand/battle-lab-132x33.png);
+  float: right;
+  height: 1.718vw;
+  margin: 0 4.739vw 0 auto;
+  transition: opacity ease-out 0.5s;
+  width: 6.875vw;
+}
+
+.footer .battle-lab .anchor:hover,
+.footer .battle-lab .anchor:focus {
+  opacity: 0.5;
+}

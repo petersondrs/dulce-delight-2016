@@ -1,0 +1,18 @@
+@import './highlights.css';
+@import './videos.css';
+@import './video.css';
+@import './instagram.css';
+@import './ny-tips.css';
+@import './shop.css';
+
+.wrapper.content.inactive:before {
+  background-color: rgba(110, 47, 68, 0.95);
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 3;
+}

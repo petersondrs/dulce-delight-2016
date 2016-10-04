@@ -1,0 +1,44 @@
+.section.shop {
+  background: url(../image/shop-background.jpg) no-repeat;
+  background-size: cover;
+  height: 23.333vw;
+  position: relative;
+}
+
+.section.shop > .title,
+.section.shop .anchor {
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+.section.shop > .title {
+  background: url(../image/brand/dulce-delight-store-413x271.png) no-repeat;
+  background-size: contain;
+  display: block;
+  height: 14.114vw;
+  overflow: hidden;
+  text-indent: -9999px;
+  top: 1.875vw;
+  width: 21.51vw;
+}
+
+.section.shop .buy .anchor {
+  background-color: #ff7275;
+  border-radius: 7px;
+  bottom: 1.979vw;
+  color: #fff;
+  display: block;
+  font-family: 'peace-sans';
+  font-size: 1.75vw;
+  line-height: 1;
+  padding: 1.25vw 4vw 1vw 4vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color ease-out 0.2s;
+}
+
+.section.shop .buy .anchor:hover,
+.section.shop .buy .anchor:focus {
+  background-color: #82cabf;
+}
