@@ -1,0 +1,148 @@
+@import './search.css';
+@import './languages.css';
+
+.header {
+  padding-top: 41.510vw;
+  position: relative;
+}
+
+.header > .title {
+  height: 10.625vw;
+  left: 50%;
+  position: absolute;
+  top: 0.677vw;
+  transform: translateX(-50%);
+  width: 12.916vw;
+  z-index: 1;
+}
+
+.header > .title .anchor {
+  display: block;
+  height: 100%;
+  outline: 0;
+  overflow: hidden;
+  position: relative;
+  text-indent: -9999px;
+  width: 100%;
+}
+
+.header > .title .anchor:after {
+  color: #fff;
+  content: '\e900';
+  display: block;
+  font-family: 'dulce-delight';
+  font-size: 10.66vw;
+  left: 0;
+  position: absolute;
+  text-indent: 0;
+  top: 0;
+  transition: color ease-out 0.2s;
+}
+
+.header > .title .anchor:hover:after,
+.header > .title .anchor:focus:after {
+  color: #543825;
+}
+
+.header > .title .anchor:active:after {
+  color: #ff7275;
+}
+
+.header .sitemap {
+  background-color: #fff;
+  border-top: solid 8px #fde48f;
+  padding: 1.5vw 0;
+  text-align: center;
+  width: 100%;
+}
+
+.header .sitemap .item {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.header .sitemap .item:not(:first-child) {
+  margin-left: 2vw;
+  padding-left: 2vw;
+}
+
+.header .sitemap .anchor,
+.header .sitemap .anchor:before {
+  display: block;
+}
+
+.header .sitemap .anchor {
+  color: #543825;
+  font-family: 'peace-sans';
+  font-size: 1.5vw;
+  line-height: 1;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.header .sitemap .anchor:before {
+  color: #82cabf;
+  display: inline-block;
+  font-family: 'dulce-delight';
+  font-size: 2vw;
+  margin-right: 0.520vw;
+  position: relative;
+  top: -0.2vw;
+  vertical-align: middle;
+}
+
+.header .sitemap .anchor:after {
+  background-color: #543825;
+  bottom: -0.5vw;
+  content: '';
+  display: block;
+  height: 1px;
+  right: 0;
+  position: absolute;
+  transition: width ease-in 0.2s;
+  width: 0;
+}
+
+.header .sitemap .anchor:hover:after,
+.header .sitemap .anchor:focus:after {
+  width: 100%;
+}
+
+.header .rainha-da-cocada {
+  max-width: 12vw;
+}
+
+.header .rainha-da-cocada .anchor:before {
+  left: -0.520vw;
+  top: 0.55vw;
+  width: 1.7vw;
+}
+
+.header .recipes .anchor:before {
+  content: '\e902';
+}
+
+.header .videos .anchor:before {
+  content: '\e903';
+}
+
+.header .rainha-da-cocada .anchor:before {
+  content: '\e904';
+}
+
+.header .ny-tips .anchor:before {
+  content: '\e905';
+}
+
+.header .about .anchor:before {
+  content: '\e906';
+}
+
+.header .shop .anchor:before {
+  content: '\e907';
+}
+
+.header .contact .anchor:before {
+  content: '\e908';
+}

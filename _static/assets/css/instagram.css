@@ -1,0 +1,110 @@
+.section.instagram {
+  position: relative;
+}
+
+.section.instagram:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.section.instagram > .title {
+  color: #fff;
+  display: block;
+  font-family: 'peace-sans';
+  font-size: 3vw;
+  left: 50%;
+  line-height: 1;
+  padding: 1vw 2.5vw 0.5vw 2.5vw;
+  position: absolute;
+  text-transform: uppercase;
+  text-shadow:
+    3px 3px 0 rgba(0, 0, 0, 0.13),
+    -1px 1px 0 rgba(0, 0, 0, 0.13),
+    1px 1px 0 rgba(0, 0, 0, 0.13);
+  transform: translateX(-50%) skewY(-10deg);
+  top: -3.5vw;
+  z-index: 1;
+}
+
+.section.instagram > .title:before,
+.section.instagram > .title:after {
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+  z-index: -1;
+}
+
+.section.instagram > .title:before {
+  background-color: #fde48f;
+  left: 0.833vw;
+  top: 0.729vw;
+}
+
+.section.instagram > .title:after {
+  background-color: #82cabf;
+  left: 0;
+  top: 0;
+}
+
+.section.instagram .item {
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: left;
+  height: 24.843vw;
+  position: relative;
+  width: 25%;
+}
+
+.section.instagram .item .anchor {
+  display: block;
+  font-size: 0;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.section.instagram .item .anchor:before,
+.section.instagram .item .anchor:after {
+  position: absolute;
+}
+
+.section.instagram .item .anchor:before {
+  background-color: #82cabf;
+  content: '';
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  transition: opacity ease-out 0.5s;
+  width: 100%;
+}
+
+.section.instagram .item .anchor:hover:before,
+.section.instagram .item .anchor:focus:before {
+  opacity: 0.5;
+}
+
+.section.instagram .item .anchor:after {
+  color: #fff;
+  content: '\e90b';
+  display: inline-block;
+  font-family: 'dulce-delight';
+  font-size: 5vw;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, 300%);
+  transition: transform ease-out 0.5s;
+}
+
+.section.instagram .item .anchor:hover:after,
+.section.instagram .item .anchor:focus:after {
+  transform: translate(-50%, -50%);
+}
