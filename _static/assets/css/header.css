@@ -51,9 +51,13 @@
 .header .sitemap {
   background-color: #fff;
   border-top: solid 8px #fde48f;
-  padding: 1.5vw 0;
+  padding: 1.5vw 0 0;
   text-align: center;
   width: 100%;
+}
+
+.header .sitemap .collection {
+  padding-bottom: 1.5vw;
 }
 
 .header .sitemap .item {
@@ -115,6 +119,25 @@
 
 .header .sitemap .active .anchor:after {
   display: none;
+}
+
+
+.header .sitemap .subnav {
+  background-color: #fde48f;
+  padding: 2.5vw 0 1.2vw;
+}
+
+.header .sitemap .subnav .item {
+  margin-bottom: 1.2vw;
+}
+
+.header .sitemap .subnav .item:not(:first-child) {
+  padding-left: 0vw;
+}
+
+.header .sitemap .subnav .item .anchor > span {
+  font-family: 'Open Sans';
+  font-weight: 400;
 }
 
 
