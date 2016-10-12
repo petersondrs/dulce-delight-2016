@@ -15,7 +15,10 @@
   width: 100%;
 }
 
-/*.section.videos:before {
+
+/*.
+.section.videos:before {
+>>>>>>> origin/master
   background: 0 0 url(../image/article-overlay.png) repeat-x;
   background-size: 3.437vw 0.885vw;
   height: 0.886vw;
@@ -111,6 +114,7 @@
   text-align: center;
   width: 6.406vw;
 }
+
 
 .section.videos .item:nth-child(1):after { content: '\e90e'; }
 .section.videos .item:nth-child(2):after { content: '\e911'; }
