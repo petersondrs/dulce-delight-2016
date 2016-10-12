@@ -86,9 +86,6 @@
 .dd-shop:before {
   content: "\e907";
 }
-.dd-icecream:before {
-  content: "\e910";
-}
 .dd-printer:before {
   content: "\e912";
 }
@@ -142,4 +139,22 @@
 }
 .dd-play-o:before {
   content: "\e92c";
+}
+.dd-icecream:before {
+  content: "\e910";
+}
+.dd-ny-staten-island:before {
+  content: "\e000";
+}
+.dd-ny-bronx:before {
+  content: "\e001";
+}
+.dd-ny-brooklin:before {
+  content: "\e002";
+}
+.dd-ny-manhattan:before {
+  content: "\e003";
+}
+.dd-ny-queens:before {
+  content: "\e004";
 }

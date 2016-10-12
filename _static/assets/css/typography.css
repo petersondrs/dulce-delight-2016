@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Open+Sans:600';
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,600';
 
 @font-face{
   font-family: 'peace-sans';
@@ -7,17 +7,6 @@
     url('../font/peace-sans/peace-sans.woff') format('woff'),
     url('../font/peace-sans/peace-sans.ttf') format('truetype'),
     url('../font/peace-sans/peace-sans.svg#peace-sans') format('svg');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face{
-  font-family: 'dulce-delight';
-  src: url('../font/dulce-delight/dulce-delight.eot');
-  src: url('../font/dulce-delight/dulce-delight.eot?#iefix') format('embedded-opentype'),
-    url('../font/dulce-delight/dulce-delight.woff') format('woff'),
-    url('../font/dulce-delight/dulce-delight.ttf') format('truetype'),
-    url('../font/dulce-delight/dulce-delight.svg#dulce-delight') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -32,3 +21,82 @@
   font-weight: normal;
   font-style: normal;
 }
+
+
+@font-face{
+  font-family: 'dulce-delight';
+  src: url('../font/dulce-delight/dulce-delight.eot');
+  src: url('../font/dulce-delight/dulce-delight.eot?#iefix') format('embedded-opentype'),
+    url('../font/dulce-delight/dulce-delight.woff') format('woff'),
+    url('../font/dulce-delight/dulce-delight.ttf') format('truetype'),
+    url('../font/dulce-delight/dulce-delight.svg#dulce-delight') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[data-icon]:before {
+  font-family: "dulce-delight" !important;
+  content: attr(data-icon);
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+[class^="dd-"]:before,
+[class*=" dd-"]:before {
+  font-family: "dulce-delight" !important;
+  font-style: normal !important;
+  font-weight: normal !important;
+  font-variant: normal !important;
+  text-transform: none !important;
+  speak: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.dd-scale:before { content: "\e917"; }
+.dd-cake:before { content: "\e90f"; }
+.dd-level-intermediate:before { content: "\e919"; }
+.dd-double-page:before { content: "\e905"; }
+.dd-single-page:before { content: "\e913"; }
+.dd-calculator:before { content: "\e91b"; }
+.dd-letter:before { content: "\e908"; }
+.dd-people:before { content: "\e91c"; }
+.dd-play-square:before { content: "\e903"; }
+.dd-clapperboard:before { content: "\e91d"; }
+.dd-cookie:before { content: "\e90e"; }
+.dd-clock:before { content: "\e91e"; }
+.dd-arrows:before { content: "\e91f"; }
+.dd-crown:before { content: "\e904"; }
+.dd-dog:before { content: "\e92a"; }
+.dd-shop:before { content: "\e907"; }
+.dd-icecream:before { content: "\e910"; }
+.dd-printer:before { content: "\e912"; }
+.dd-question-mark:before { content: "\e906"; }
+.dd-sundae:before { content: "\e911"; }
+.dd-book:before { content: "\e902"; }
+.dd-level-hard:before { content: "\e91a"; }
+.dd-level-easy:before { content: "\e918"; }
+.dd-facebook:before { content: "\e90a"; }
+.dd-instagram:before { content: "\e90b"; }
+.dd-twitter:before { content: "\e90c"; }
+.dd-youtube-play:before { content: "\e909"; }
+.dd-dulce-delight:before { content: "\e900"; }
+.dd-search:before { content: "\e901"; }
+.dd-play:before { content: "\e90d"; }
+.dd-times:before { content: "\e914"; }
+.dd-chevron-left:before { content: "\e915"; }
+.dd-chevron-right:before { content: "\e916"; }
+.dd-play-circle:before { content: "\e92b"; }
+.dd-play-o:before { content: "\e92c"; }
+.dd-ny-staten-island:before { content: "\e000"; }
+.dd-ny-bronx:before { content: "\e001"; }
+.dd-ny-brooklin:before { content: "\e002"; }
+.dd-ny-manhattan:before { content: "\e003"; }
+.dd-ny-queens:before { content: "\e004"; }
