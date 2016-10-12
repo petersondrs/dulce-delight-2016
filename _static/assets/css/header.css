@@ -109,6 +109,15 @@
   width: 100%;
 }
 
+.header .sitemap .active .anchor {
+  color: #ff7275;
+}
+
+.header .sitemap .active .anchor:after {
+  display: none;
+}
+
+
 .header .rainha-da-cocada {
   max-width: 12vw;
 }

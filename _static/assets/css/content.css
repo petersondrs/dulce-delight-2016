@@ -4,6 +4,7 @@
 @import './instagram.css';
 @import './ny-tips.css';
 @import './shop.css';
+@import './recipes.css';
 
 .wrapper.content.inactive:before {
   background-color: rgba(110, 47, 68, 0.95);

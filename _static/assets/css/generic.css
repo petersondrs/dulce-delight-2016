@@ -18,3 +18,30 @@ object,
 .navigation > .title {
   display: none;
 }
+
+.load-more {
+	width: 100%;
+	background-color: #f2efef;
+	text-align: center;
+	padding: 5vw 0;
+}
+
+.load-more .anchor {
+	background-color: #82cabf;
+	border-radius: 7px;
+	bottom: 1.979vw;
+	color: #764d30;
+	font-family: 'peace-sans';
+	font-size: 1.75vw;
+	line-height: 1;
+	padding: 1vw 5vw 0.75vw 5vw;
+	text-decoration: none;
+	text-transform: uppercase;
+	transition: all ease-out 0.2s;
+}
+
+.load-more .anchor:hover,
+.load-more .anchor:focus {
+	background-color: #ff7275;
+	color: #fff;
+}
