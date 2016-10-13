@@ -325,18 +325,21 @@
   right: 0;
 }
 
-.section.video .related.photos > .collection > .item.active {
-  /*
+.section.video .related.photos > .collection > .item.active .anchor:before {
+  content: '';
+  display: block;
   height: 47.76vw;
-  left: 0;
   position: absolute;
-  top: 0;
+  top: -49.589vw;
   width: 71.61vw;
-  */
+}
+
+.section.video .related.photos > .collection > .item:nth-child(3n+1) {
+  left: 0;
 }
 
 .section.video .related.photos > .collection > .item .anchor,
-.section.video .related.photos > .collection > .item .anchor:after {
+.section.video .related.photos > .collection > .item .anchor:before {
   background-image: inherit;
   background-position: 0 0;
   background-repeat: inherit;
@@ -348,19 +351,101 @@
   height: 100%;
   text-indent: -999px;
   width: 100%;
-  /*
-  left: 0;
-  overflow: hidden;
-  position: absolute;
-  top: 0;
-  */
 }
 
-.section.video .related.photos .pagination {
+.section.video .related.photos .pagination .item {
   position: absolute;
-  top: 0;
+  top: 22.3vw;
+}
+
+.section.video .related.photos .previous {
+  right: calc(100% + 1.9vw);
+}
+
+.section.video .related.photos .next {
+  left: calc(100% + 1.9vw);
+}
+
+.section.video .related.photos .pagination .anchor {
+  font-size: 0;
+  text-decoration: none;
+}
+
+.section.video .related.photos .pagination .anchor:after {
+  color: #fff;
+  display: block;
+  font-family: 'dulce-delight';
+  font-size: 5vw;
+  line-height: 1;
+}
+
+.section.video .related.photos .previous .anchor:after {
+  content: '\e915';
+}
+
+.section.video .related.photos .next .anchor:after {
+  content: '\e916';
 }
 
 .section.video .related.videos {
-  display: none;
+  text-align: center;
+}
+
+.section.video .related.videos .title {
+  color: #fde48f;
+  text-decoration: none;
+}
+
+.section.video .related.videos > .title {
+  display: block;
+  font-family: 'peace-sans';
+  font-size: 2.5vw;
+  margin: 6.6vw 0;
+}
+
+.section.video .related.videos .collection:after {
+  clear: both;
+  content: '';
+  display: block;
+}
+
+.section.video .related.videos .definition {
+  background-repeat: no-repeat;
+  background-size: auto 11.354vw;
+  display: inline-block;
+  padding-top: 13.354vw;
+  position: relative;
+  vertical-align: top;
+  width: 16.77vw;
+}
+
+.section.video .related.videos .definition:not(:nth-child(2)) {
+  margin-left: 5.625vw;
+}
+
+.section.video .related.videos .definition .title {
+  font-family: 'Open Sans';
+}
+
+.section.video .related.videos .definition .title:before {
+  content: attr(title);
+  display: inline-block;
+}
+
+.section.video .related.videos .definition .description .anchor {
+  color: #fff;
+  font-family: 'peace-sans';
+  line-height: 1;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.section.video .related.videos .definition .description .anchor:after {
+  content: '';
+  display: block;
+  height: 11.354vw;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
 }

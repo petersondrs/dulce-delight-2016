@@ -1,0 +1,135 @@
+.section.contact,
+.section.contact:after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section.contact {
+  padding: 0 25.5vw;
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  width: calc(100% - 51vw);
+}
+
+.section.contact:after {
+  background-color: #fde48f;
+  content: '';
+  display: block;
+  height: 1px;
+  position: absolute;
+  top: 11.25vw;
+  width: calc(100vw - 15.624vw);
+}
+
+.section.contact .fieldset {
+  padding-top: 16.5vw;
+}
+
+.section.contact .fieldset > .title {
+  color: #fde48f;
+  display: block;
+  font-family: 'peace-sans';
+  font-size: 2vw;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  top: 6.562vw;
+  width: 100%;
+}
+
+.section.contact .fieldset > .paragraph {
+  color: #fff;
+  font-family: 'Open Sans';
+  font-size: 1.2vw;
+  text-align: center;
+}
+
+.section.contact .fieldset > .title + .paragraph {
+  color: #ff7275;
+  font-size: 1.4vw;
+}
+
+.section.contact .field .title,
+.section.contact .field .input,
+.section.contact .control .input {
+  border: none;
+  display: block;
+  font-family: 'peace-sans';
+  text-transform: uppercase;
+}
+
+.section.contact .field .title {
+  color: #fff;
+  font-size: 1.5vw;
+  line-height: 1;
+  margin-top: 3vw;
+  width: 100%;
+}
+
+.section.contact .field .input,
+.section.contact .control .input {
+  padding: 0.75vw 2vw;
+}
+
+.section.contact .field .input {
+  color: #000;
+  margin-top: 1.5vw;
+  width: calc(100% - 4vw);
+}
+
+.section.contact .control .input {
+  background-color: #fde48f;
+  cursor: pointer;
+  margin: 2.5vw auto 0 auto;
+  color: #764d30;
+}
+
+.section.contact .control .input:hover,
+.section.contact .control .input:focus {
+  background-color: #ff7275;
+  color: #fff;
+  transition: background-color ease-out 0.2s, color ease-out 0.1s;
+}
+
+.section .cancel {
+  position: absolute;
+  top: 2vw;
+  right: 4vw;
+}
+
+.section .cancel .anchor {
+  border: solid 0.3vw #ff7275;
+  border-radius: 50%;
+  display: block;
+  font-size: 0;
+  height: 2.75vw;
+  overflow: hidden;
+  transition: border-color ease-out 0.2s;
+  width: 2.75vw;
+}
+
+.section .cancel .anchor:hover,
+.section .cancel .anchor:focus {
+  border-color: #fff;
+}
+
+.section .cancel .anchor:after {
+  color: #ff7275;
+  content: '\e914';
+  display: block;
+  font-family: 'dulce-delight';
+  font-size: 1.5vw;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  transition: color ease-out 0.2s;
+}
+
+.section .cancel .anchor:hover:after,
+.section .cancel .anchor:focus:after {
+  color: #fff;
+}

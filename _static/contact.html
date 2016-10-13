@@ -6,7 +6,7 @@
     <title>Dulce Delight</title>
     <link href="./assets/css/app.css" rel="stylesheet" />
   </head>
-  <body class="body video">
+  <body class="body contact">
     <div class="wrapper viewport">
       <div class="wrapper app" id="app">
         <header class="header" id="header">
@@ -44,67 +44,35 @@
           </nav>
         </header>
         <div class="wrapper content inactive" id="content">
-          <section class="section video">
-            <h2 class="title">Croque Madame</h2>
-            <div class="wrapper player">
-              <iframe src="https://www.youtube.com/embed/ZK4xtkE4Es0" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <blockquote class="quote">
-              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec porttitor mauris. Sed blandit nec velit in bibendum. Etiam aliquet posuere faucibus. Aenean venenatis, massa at posuere posuere, odio dolor accumsan mauris, id cursus lacus libero quis sem. Praesent facilisis mi sit amet enim egestas convallis. Suspendisse potenti. Sed facilisis, leo finibus imperdiet condimentum, orci mi fermentum ligula, a convallis ex lorem sed arcu. Mauris eleifend et mi vel dapibus. Proin eleifend lacus at purus interdum tincidunt. Donec arcu nisi, posuere et hendrerit vel, finibus sed nulla. Integer eget gravida est, vitae scelerisque leo.</p>
-              <p class="paragraph">Ut sit amet mi cursus nisl ullamcorper aliquet non vitae purus. Aenean efficitur, magna at pellentesque elementum, massa lacus placerat eros, ut vestibulum lectus leo et tellus. Cras non placerat velit, eu pretium tellus. Pellentesque luctus aliquet dolor vitae efficitur. Vestibulum volutpat odio sed convallis aliquam. Phasellus ac vestibulum augue, vitae dignissim enim. Phasellus ac ligula eget justo malesuada euismod eget eget arcu. Etiam pellentesque vitae libero id malesuada.</p>
-            </blockquote>
-            <nav class="navigation actions">
-              <h4 class="title">Opções</h4>
-              <ul class="collection">
-                <li class="item social">
-                  <span class="fragment">Compartilhe</span>
+          <section class="section contact">
+            <form name="form-contact" id="form-contact" action="" method="post">
+              <fieldset class="fieldset">
+                <legend class="title">Contato</legend>
+                <p class="paragraph">O buraco negro que vai nos conectar.</p>
+                <p class="paragraph">Me mande uma mensagem e eu vou pessoalmente le-la. Não a minha assistente.</p>
+                <div class="wrapper field name">
+                  <label class="title" for="name">Nome</label>
+                  <input type="text" name="name" id="name" class="input" maxlength="255" value="" />
+                </div>
+                <div class="wrapper field email">
+                  <label class="title" for="email">E-mail</label>
+                  <input type="email" name="email" id="email" class="input" maxlength="255" value="" />
+                </div>
+                <div class="wrapper field message">
+                  <label class="title" for="message">Mensagem</label>
+                  <textarea name="message" id="message" class="input"></textarea>
+                </div>
+                <div class="wrapper control submit">
+                  <input type="submit" name="form-contact-submit" id="form-contact-submit" class="input" value="Enviar" />
+                </div>
+                <nav class="navigation actions">
+                  <h4 class="title">Opções</h4>
                   <ul class="collection">
-                    <li class="item facebook"><a href="" title="Facebook" class="anchor">Facebook</a></li>
-                    <li class="item twitter"><a href="" title="Twitter" class="anchor">Twitter</a></li>
+                    <li class="item cancel"><a href="" title="FecCancelarhar" class="anchor">Cancelar</a></li>
                   </ul>
-                </li>
-                <li class="item details"><a href="" title="Ver receita" class="anchor">Ver receita</a></li>
-                <li class="item print"><a href="" title="Imprimir" class="anchor">Imprimir</a></li>
-                <li class="item pdf"><a href="" title="Baixar PDF" class="anchor">Baixar PDF</a></li>
-                <li class="item close"><a href="" title="Fechar" class="anchor">Fechar</a></li>
-              </ul>
-            </nav>
-            <article class="article related photos">
-              <h3 class="title">Fotos relacionadas</h3>
-              <ul class="collection">
-                <li class="item available active" style="background-image: url(./assets/image/trash/video-photo-02.jpg);"><a href="" title="Foto #2" class="anchor">Foto #2</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-03.jpg);"><a href="" title="Foto #3" class="anchor">Foto #3</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-04.jpg);"><a href="" title="Foto #4" class="anchor">Foto #4</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-02.jpg);"><a href="" title="Foto #2" class="anchor">Foto #2</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-03.jpg);"><a href="" title="Foto #3" class="anchor">Foto #3</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-04.jpg);"><a href="" title="Foto #4" class="anchor">Foto #4</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-02.jpg);"><a href="" title="Foto #2" class="anchor">Foto #2</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-03.jpg);"><a href="" title="Foto #3" class="anchor">Foto #3</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-04.jpg);"><a href="" title="Foto #4" class="anchor">Foto #4</a></li>
-              </ul>
-              <nav class="navigation pagination">
-                <h4 class="title">Opções</h4>
-                <ul class="collection">
-                  <li class="item previous"><a href="" title="Página anterior" class="anchor">Página anterior</a></li>
-                  <li class="item next"><a href="" title="Próxima página" class="anchor">Próxima página</a></li>
-                </ul>
-              </nav>
-            </article>
-            <article class="article related videos">
-              <h3 class="title">Vídeos relacionados</h3>
-              <dl class="definition" style="background-image: url(./assets/image/trash/video-05.jpg);">
-                <dt class="title"><span class="fragment">04.06.2015</span></dt>
-                <dd class="description"><a href="" title="Cheese cake nova yorquino" class="anchor">Cheese cake nova yorquino</a></dd>
-              </dl>
-              <dl class="definition" style="background-image: url(./assets/image/trash/video-06.jpg);">
-                <dt class="title"><span class="fragment">04.06.2015</span></dt>
-                <dd class="description"><a href="" title="Bagels em NY" class="anchor">Bagels em NY</a></dd>
-              </dl>
-              <dl class="definition" style="background-image: url(./assets/image/trash/video-07.jpg);">
-                <dt class="title"><span class="fragment">04.06.2015</span></dt>
-                <dd class="description"><a href="" title="Brownstone" class="anchor">Brownstone</a></dd>
-              </dl>
-            </article>
+                </nav>
+              </fieldset>
+            </form>
           </section>
           <section class="section highlights">
             <h2 class="title">Destaques</h2>

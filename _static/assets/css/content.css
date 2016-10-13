@@ -5,9 +5,10 @@
 @import './ny-tips.css';
 @import './shop.css';
 @import './recipes.css';
+@import './contact.css';
+@import './about.css';
 
 .wrapper.content.inactive:before {
-  background-color: rgba(110, 47, 68, 0.95);
   content: '';
   display: block;
   height: 100%;
@@ -16,4 +17,12 @@
   top: 0;
   width: 100%;
   z-index: 3;
+}
+
+.video .wrapper.content.inactive:before {
+  background-color: rgba(110, 47, 68, 0.95);
+}
+
+.contact .wrapper.content.inactive:before {
+  background-color: rgba(118, 77, 48, 0.95);
 }
