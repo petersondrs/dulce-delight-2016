@@ -80,7 +80,7 @@
   padding: 0.5vw 1.75vw;
   text-align: center;
   text-overflow: hidden;
-  transition: color ease-out 0.2s, background-color ease-out 0.2s, width ease-out 0.3s;
+  transition: background-color ease-out 0.2s, width ease-out 0.3s, border-color ease-out 0.2s, color ease-out 0.2s;
   width: 0;
 }
 

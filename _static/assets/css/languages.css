@@ -1,22 +1,22 @@
-.navigation.languages {
+.header .navigation.languages {
   position: absolute;
   right: 4.739vw;
   top: 2.760vw;
   z-index: 1;
 }
 
-.navigation.languages .collection:after {
+.header .navigation.languages .collection:after {
   clear: both;
   content: '';
   display: block;
 }
 
-.navigation.languages .item {
+.header .navigation.languages .item {
   float: left;
   position: relative;
 }
 
-.navigation.languages .item:after {
+.header .navigation.languages .item:after {
   background-color: #fff;
   bottom: 0.5vw;
   content: '';
@@ -28,34 +28,34 @@
   width: 0;
 }
 
-.navigation.languages .item:hover:after,
-.navigation.languages .item.active:after {
+.header .navigation.languages .item:hover:after,
+.header .navigation.languages .item.active:after {
   width: 100%;
 }
 
-.navigation.languages .item:not(:first-child):hover:after,
-.navigation.languages .item:not(:first-child).active:after {
+.header .navigation.languages .item:not(:first-child):hover:after,
+.header .navigation.languages .item:not(:first-child).active:after {
   width: calc(100% - 1vw);
 }
 
-.navigation.languages .anchor {
+.header .navigation.languages .anchor {
   display: block;
   font-size: 0;
 }
 
-.navigation.languages .anchor:before,
-.navigation.languages .anchor:after {
+.header .navigation.languages .anchor:before,
+.header .navigation.languages .anchor:after {
   color: #fff;
   font-family: 'peace-sans';
   font-size: 2vw;
 }
 
-.navigation.languages .item:not(:first-child) .anchor:before {
+.header .navigation.languages .item:not(:first-child) .anchor:before {
   content: '/';
   display: inline-block;
 }
 
-.navigation.languages .anchor:after {
+.header .navigation.languages .anchor:after {
   content: attr(data-language);
   display: inline-block;
 }

@@ -7,6 +7,7 @@
 @import './recipes.css';
 @import './contact.css';
 @import './about.css';
+@import './404.css';
 
 .wrapper.content.inactive:before {
   content: '';
