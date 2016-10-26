@@ -209,14 +209,6 @@
   font-size: 0;
   line-height: 1;
   text-indent: 0;
-  /*
-  background-image: url(../image/brand/battle-lab-132x33.png);
-  float: right;
-  height: 1.718vw;
-  margin: 0 4.739vw 0 auto;
-  transition: opacity ease-out 0.5s;
-  width: 6.875vw;
-  */
 }
 
 .footer .battle-lab .anchor:before {
@@ -227,23 +219,9 @@
   font-size: 8vw;
   margin-right: 4.791vw;
   transition: color ease-out 0.2s;
-  /*
-  background-color: #e5e5e5;
-  content: '';
-  display: block;
-  height: 200px;
-  left: 0;
-  position: absolute;
-  top: -1.562vw;
-  width: 100vw;
-  z-index: -1;
-  */
 }
 
 .footer .battle-lab .anchor:hover:before,
 .footer .battle-lab .anchor:focus:before {
   color: #82cabf;
-  /*
-  opacity: 0.5;
-  */
 }

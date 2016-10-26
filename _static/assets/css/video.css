@@ -402,12 +402,6 @@
   margin: 6.6vw 0;
 }
 
-.section.video .related.videos .collection:after {
-  clear: both;
-  content: '';
-  display: block;
-}
-
 .section.video .related.videos .definition {
   background-repeat: no-repeat;
   background-size: auto 11.354vw;

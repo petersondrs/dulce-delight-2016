@@ -24,6 +24,6 @@
 }
 
 .page.contact .wrapper.content.inactive:before,
-.page.search.results .wrapper.content.inactive:before {
+.page.search .wrapper.content.inactive:before {
   background-color: rgba(118, 77, 48, 0.95);
 }
