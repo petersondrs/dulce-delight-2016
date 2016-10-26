@@ -1,0 +1,170 @@
+.page.home .section.ny-tips {
+  position: relative;
+}
+
+.page.home .section.ny-tips:before,
+.page.home .section.ny-tips:after {
+  content: '';
+  display: block;
+  left: 0;
+  position: absolute;
+  width: 100%;
+}
+
+.page.home .section.ny-tips:before {
+  background: 0 0 url(../image/article-overlay.png) repeat-x;
+  background-size: 3.437vw 0.885vw;
+  bottom: 2.28vw;
+  height: 0.886vw;
+}
+
+.page.home .section.ny-tips:after {
+  background-color: #fff;
+  bottom: 0;
+  height: 2.343vw;
+}
+
+.page.home .section.ny-tips > .title .anchor {
+  background-color: #fde48f;
+  color: #764d30;
+  font-family: 'Open Sans';
+  font-size: 1.5vw;
+  left: 50%;
+  letter-spacing: 0.25vw;
+  line-height: 1;
+  padding: 0.625vw 2.083vw 0.572vw 2vw;
+  position: absolute;
+  text-transform: uppercase;
+  top: 8.697vw;
+  text-decoration: none;
+  transform: translateX(calc(-50% - 1.2vw));
+  transition: background-color ease-out 0.2s, color ease-out 0.2s;
+  width: auto;
+}
+
+.page.home .section.ny-tips > .title .anchor:hover,
+.page.home .section.ny-tips > .title .anchor:focus {
+  background-color: #543825;
+  color: #fff;
+}
+
+.page.home .section.ny-tips > .title .anchor:before,
+.page.home .section.ny-tips > .title .anchor:after {
+  border-style: solid;
+  content: '';
+  display: block;
+  height: 0;
+  position: absolute;
+  right: -2.3vw;
+  transition: border-color ease-out 0.2s, color ease-out 0.2s;
+  width: 0;
+}
+
+.page.home .section.ny-tips > .title .anchor:before {
+  border-color: #fde48f transparent transparent transparent;
+  border-width: 1.5vw 2.6vw 0 0;
+  top: 0;
+}
+
+.page.home .section.ny-tips > .title .anchor:after {
+  border-color: transparent transparent transparent #fde48f;
+  border-width: 1.5vw 0 0 2.6vw;
+  bottom: 0;
+}
+
+.page.home .section.ny-tips > .title .anchor:hover:before,
+.page.home .section.ny-tips > .title .anchor:focus:before {
+  border-color: #543825 transparent transparent transparent;
+}
+
+.page.home .section.ny-tips > .title .anchor:hover:after,
+.page.home .section.ny-tips > .title .anchor:focus:after {
+  border-color: transparent transparent transparent #543825;
+}
+
+.page.home .section.ny-tips .article {
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 29.594vw;
+  padding-top: 12.697vw;
+  text-align: center;
+}
+
+.page.home .section.ny-tips .article .title .anchor {
+  color: #fff;
+  font-family: 'peace-sans';
+  font-size: 5vw;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: color ease-out 0.2s, text-shadow ease-out 0.2s;
+}
+
+.page.home .section.ny-tips .article .title .anchor:hover,
+.page.home .section.ny-tips .article .title .anchor:focus {
+  color: #82cabf;
+  text-shadow:
+    3px 3px 0 rgba(0, 0, 0, 0.13),
+    -1px 1px 0 rgba(0, 0, 0, 0.13),
+    1px 1px 0 rgba(0, 0, 0, 0.13);
+}
+
+.page.home .section.ny-tips .article .paragraph {
+  color: #fff;
+  font-family: 'nickainley';
+  font-size: 2.75vw;
+  margin: 0 5%;
+}
+
+.page.home .section.ny-tips .article .actions {
+  margin-top: 2vw;
+}
+
+.page.home .section.ny-tips .item .anchor {
+  background-color: #ff7275;
+  border-radius: 7px;
+  color: #fff;
+  display: inline-block;
+  font-family: 'peace-sans';
+  font-size: 1.75vw;
+  line-height: 1;
+  padding: 1.25vw 2.5vw 1vw 5.5vw;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  transition: background-color ease-out 0.2s;
+}
+
+.page.home .section.ny-tips .item .anchor:hover,
+.page.home .section.ny-tips .item .anchor:focus {
+  background-color: #82cabf;
+}
+
+.page.home .section.ny-tips .item .anchor:active {
+  background-color: #543825;
+}
+
+.page.home .section.ny-tips .item .anchor:before,
+.page.home .section.ny-tips .item .anchor:after {
+  content: '';
+  display: block;
+  position: absolute;
+}
+
+.page.home .section.ny-tips .item .anchor:before {
+  border: solid 2.5px #fff;
+  border-radius: 50%;
+  height: 2.25vw;
+  left: 10%;
+  top: 15%;
+  width: 2.25vw;
+}
+
+.page.home .section.ny-tips .item .anchor:after {
+  background: url(../image/play-icon.png) no-repeat;
+  background-size: contain;
+  height: 1.6vw;
+  left: 14.75%;
+  top: 30%;
+  width: 1.25vw;
+}
