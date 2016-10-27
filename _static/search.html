@@ -6,23 +6,11 @@
     <title>Dulce Delight</title>
     <link href="./assets/css/app.css" rel="stylesheet" />
   </head>
-  <body class="body page video">
+  <body class="body page search">
     <div class="wrapper viewport">
       <div class="wrapper app" id="app">
         <header class="header" id="header">
           <h1 class="title"><a href="index.html" title="Dulce Delight" class="anchor">Dulce Delight</a></h1>
-          <form name="search-form" id="search-form" action="" method="" class="form search">
-            <fieldset class="fieldset">
-              <legend class="title">Ferramenta de busca</legend>
-              <div class="wrapper field keywords">
-                <label class="title" for="q">Palavras-chave:</label>
-                <input type="text" name="q" id="q" maxlength="255" class="input" value="" />
-              </div>
-              <div class="wrapper control submit">
-                <input type="submit" class="input" value="Buscar" />
-              </div>
-            </fieldset>
-          </form>
           <nav class="navigation sitemap">
             <h4 class="title">Navegue pelo site</h4>
             <ul class="collection">
@@ -44,65 +32,148 @@
           </nav>
         </header>
         <div class="wrapper content inactive" id="content">
-          <section class="section video">
-            <h2 class="title">Croque Madame</h2>
-            <div class="wrapper player">
-              <iframe src="https://www.youtube.com/embed/ZK4xtkE4Es0" frameborder="0" allowfullscreen></iframe>
-            </div>
-            <blockquote class="quote">
-              <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse nec porttitor mauris. Sed blandit nec velit in bibendum. Etiam aliquet posuere faucibus. Aenean venenatis, massa at posuere posuere, odio dolor accumsan mauris, id cursus lacus libero quis sem. Praesent facilisis mi sit amet enim egestas convallis. Suspendisse potenti. Sed facilisis, leo finibus imperdiet condimentum, orci mi fermentum ligula, a convallis ex lorem sed arcu. Mauris eleifend et mi vel dapibus. Proin eleifend lacus at purus interdum tincidunt. Donec arcu nisi, posuere et hendrerit vel, finibus sed nulla. Integer eget gravida est, vitae scelerisque leo.</p>
-              <p class="paragraph">Ut sit amet mi cursus nisl ullamcorper aliquet non vitae purus. Aenean efficitur, magna at pellentesque elementum, massa lacus placerat eros, ut vestibulum lectus leo et tellus. Cras non placerat velit, eu pretium tellus. Pellentesque luctus aliquet dolor vitae efficitur. Vestibulum volutpat odio sed convallis aliquam. Phasellus ac vestibulum augue, vitae dignissim enim. Phasellus ac ligula eget justo malesuada euismod eget eget arcu. Etiam pellentesque vitae libero id malesuada.</p>
-            </blockquote>
-            <nav class="navigation actions">
-              <h4 class="title">Opções</h4>
-              <ul class="collection">
-                <li class="item social">
-                  <span class="fragment">Compartilhe</span>
+          <section class="section search">
+            <form name="search-form" id="search-form" action="" method="" class="form search">
+              <fieldset class="fieldset">
+                <legend class="title">
+                  <span class="fragment">Resultados para</span>
+                  <i class="fragment key">patisserie</i>
+                </legend>
+                <div class="wrapper field keywords">
+                  <label class="title" for="q">Palavras-chave:</label>
+                  <input type="text" name="q" id="q" placeholder="O que você procura?" maxlength="255" class="input" value="" />
+                </div>
+                <div class="wrapper control submit">
+                  <input type="submit" class="input" value="Buscar" />
+                </div>
+                <nav class="navigation actions">
+                  <h4 class="title">Opções</h4>
                   <ul class="collection">
-                    <li class="item facebook"><a href="" title="Facebook" class="anchor">Facebook</a></li>
-                    <li class="item twitter"><a href="" title="Twitter" class="anchor">Twitter</a></li>
+                    <li class="item cancel"><a href="" title="Cancelar" class="anchor">Cancelar</a></li>
                   </ul>
-                </li>
-                <li class="item details"><a href="" title="Ver receita" class="anchor">Ver receita</a></li>
-                <li class="item print"><a href="" title="Imprimir" class="anchor">Imprimir</a></li>
-                <li class="item pdf"><a href="" title="Baixar PDF" class="anchor">Baixar PDF</a></li>
-                <li class="item close"><a href="" title="Fechar" class="anchor">Fechar</a></li>
-              </ul>
-            </nav>
-            <article class="article related photos">
-              <h3 class="title">Fotos relacionadas</h3>
-              <ul class="collection">
-                <li class="item available active" style="background-image: url(./assets/image/trash/video-photo-02.jpg);"><a href="" title="Foto #2" class="anchor">Foto #2</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-03.jpg);"><a href="" title="Foto #3" class="anchor">Foto #3</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-04.jpg);"><a href="" title="Foto #4" class="anchor">Foto #4</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-02.jpg);"><a href="" title="Foto #2" class="anchor">Foto #2</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-03.jpg);"><a href="" title="Foto #3" class="anchor">Foto #3</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-04.jpg);"><a href="" title="Foto #4" class="anchor">Foto #4</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-02.jpg);"><a href="" title="Foto #2" class="anchor">Foto #2</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-03.jpg);"><a href="" title="Foto #3" class="anchor">Foto #3</a></li>
-                <li class="item available" style="background-image: url(./assets/image/trash/video-photo-04.jpg);"><a href="" title="Foto #4" class="anchor">Foto #4</a></li>
-              </ul>
-              <nav class="navigation pagination">
-                <h4 class="title">Opções</h4>
-                <ul class="collection">
-                  <li class="item previous"><a href="" title="Página anterior" class="anchor">Página anterior</a></li>
-                  <li class="item next"><a href="" title="Próxima página" class="anchor">Próxima página</a></li>
-                </ul>
-              </nav>
+                </nav>
+              </fieldset>
+            </form>
+            <article class="article categories">
+              <h2 class="title">Categorias</h2>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Matéria-prima" class="anchor">Matéria-prima</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">06</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Bolos" class="anchor">Bolos</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">06</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition active">
+                <dt class="title"><a href="" title="Clássicos franceses" class="anchor">Clássicos franceses</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">04</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Chocolate" class="anchor">Chocolate</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">03</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Festinhas" class="anchor">Festinhas</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">12</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Feriado" class="anchor">Feriado</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">0</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Vapt-vupt" class="anchor">Vapt-vupt</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">0</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Com frutas" class="anchor">Com frutas</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">09</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Vegano" class="anchor">Vegano</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">0</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Salgados" class="anchor">Salgados</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">01</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Blog" class="anchor">Blog</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">0</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
+              <dl class="definition">
+                <dt class="title"><a href="" title="Dicas de NY" class="anchor">Dicas de NY</a></dt>
+                <dd class="description">
+                  <span class="fragment counter">0</span>
+                  <span class="fragment">resultados</span>
+                </dd>
+              </dl>
             </article>
-            <article class="article related videos">
-              <h3 class="title">Vídeos relacionados</h3>
-              <dl class="definition" style="background-image: url(./assets/image/trash/video-05.jpg);">
+            <article class="article results">
+              <h2 class="title">Resultados</h2>
+              <dl class="definition" style="background-image: url(./assets/image/trash/search-01.jpg);">
+                <dt class="title"><span class="fragment">04.06.2015</span></dt>
+                <dd class="description"><a href="" title="Bolo pelado de praliné" class="anchor">Bolo pelado de praliné</a></dd>
+              </dl>
+              <dl class="definition" style="background-image: url(./assets/image/trash/search-02.jpg);">
                 <dt class="title"><span class="fragment">04.06.2015</span></dt>
                 <dd class="description"><a href="" title="Cheese cake nova yorquino" class="anchor">Cheese cake nova yorquino</a></dd>
               </dl>
-              <dl class="definition" style="background-image: url(./assets/image/trash/video-06.jpg);">
+              <dl class="definition" style="background-image: url(./assets/image/trash/search-03.jpg);">
+                <dt class="title"><span class="fragment">04.06.2015</span></dt>
+                <dd class="description"><a href="" title="Waffle sujinho" class="anchor">Waffle sujinho</a></dd>
+              </dl>
+              <dl class="definition" style="background-image: url(./assets/image/trash/search-04.jpg);">
+                <dt class="title"><span class="fragment">04.06.2015</span></dt>
+                <dd class="description"><a href="" title="Bombinhas colorê" class="anchor">Bombinhas colorê</a></dd>
+              </dl>
+              <dl class="definition" style="background-image: url(./assets/image/trash/search-05.jpg);">
+                <dt class="title"><span class="fragment">04.06.2015</span></dt>
+                <dd class="description"><a href="" title="Dalí brownie" class="anchor">Dalí brownie</a></dd>
+              </dl>
+              <dl class="definition" style="background-image: url(./assets/image/trash/search-06.jpg);">
+                <dt class="title"><span class="fragment">04.06.2015</span></dt>
+                <dd class="description"><a href="" title="Mil folhas recheados" class="anchor">Mil folhas recheados</a></dd>
+              </dl>
+              <dl class="definition" style="background-image: url(./assets/image/trash/search-07.jpg);">
+                <dt class="title"><span class="fragment">04.06.2015</span></dt>
+                <dd class="description"><a href="" title="Geléia de morango caseira" class="anchor">Geléia de morango caseira</a></dd>
+              </dl>
+              <dl class="definition" style="background-image: url(./assets/image/trash/search-08.jpg);">
                 <dt class="title"><span class="fragment">04.06.2015</span></dt>
                 <dd class="description"><a href="" title="Bagels em NY" class="anchor">Bagels em NY</a></dd>
-              </dl>
-              <dl class="definition" style="background-image: url(./assets/image/trash/video-07.jpg);">
-                <dt class="title"><span class="fragment">04.06.2015</span></dt>
-                <dd class="description"><a href="" title="Brownstone" class="anchor">Brownstone</a></dd>
               </dl>
             </article>
           </section>

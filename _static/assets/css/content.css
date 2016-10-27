@@ -1,3 +1,4 @@
+@import './home.css';
 @import './highlights.css';
 @import './videos.css';
 @import './video.css';
@@ -7,6 +8,7 @@
 @import './recipes.css';
 @import './contact.css';
 @import './about.css';
+@import './404.css';
 
 .wrapper.content.inactive:before {
   content: '';
@@ -19,10 +21,11 @@
   z-index: 3;
 }
 
-.video .wrapper.content.inactive:before {
+.page.video .wrapper.content.inactive:before {
   background-color: rgba(110, 47, 68, 0.95);
 }
 
-.contact .wrapper.content.inactive:before {
+.page.contact .wrapper.content.inactive:before,
+.page.search .wrapper.content.inactive:before {
   background-color: rgba(118, 77, 48, 0.95);
 }

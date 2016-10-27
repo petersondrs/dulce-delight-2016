@@ -31,7 +31,6 @@
   background-color: #000;
   border: solid 20px #82cabf;
   box-shadow: 16px 16px 16px -16px rgba(0, 0, 0, 0.9);
-  position: absolute;
   top: 10.052vw;
   width: calc(100% - 40px);
 }
@@ -401,12 +400,6 @@
   font-family: 'peace-sans';
   font-size: 2.5vw;
   margin: 6.6vw 0;
-}
-
-.section.video .related.videos .collection:after {
-  clear: both;
-  content: '';
-  display: block;
 }
 
 .section.video .related.videos .definition {

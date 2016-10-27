@@ -1,0 +1,130 @@
+.page.about .header > .title .anchor:hover:after,
+.page.about .header > .title .anchor:focus:after {
+  color: #ff7275;
+}
+
+.page.about .header > .title .anchor:active:after {
+  color: #543825;
+}
+
+.section.about {
+  padding: 0 5.156vw 10vw 4.687vw;
+}
+
+.section.about:before,
+.section.about:after {
+  content: '';
+  display: block;
+}
+
+.section.about:before {
+  background: center top url(../image/about-background.jpg) no-repeat;
+  background-size: cover;
+  height: 41.510vw;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.section.about:after {
+  clear: both;
+}
+
+.section.about .paragraph {
+  color: #764d30;
+  font-family: 'Open Sans';
+  text-align: justify;
+}
+
+.section.about .raiza-costa {
+  -webkit-column-count: 2;
+  -moz-column-count: 2;
+  column-count: 2;
+
+  margin-top: 2vw;
+  padding-top: 4vw;
+  position: relative;
+}
+
+.section.about .raiza-costa > .title {
+  color: #ff7275;
+  font-family: 'peace-sans';
+  font-size: 3.5vw;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.section.about .raiza-costa .paragraph {
+  margin-bottom: 3vw;
+}
+
+.section.about .dulce-delight,
+.section.about .rainha-da-cocada {
+  margin-top: 8.8vw;
+  width: 44vw;
+}
+
+.section.about .dulce-delight {
+  float: left;
+}
+
+.section.about .rainha-da-cocada {
+  float: right;
+}
+
+.section.about .dulce-delight > .title,
+.section.about .rainha-da-cocada > .title{
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  background-size: 100% 25.208vw;
+  color: #82cabf;
+  font-family: 'peace-sans';
+  font-size: 3.25vw;
+  line-height: 1;
+  padding-bottom: 27vw;
+  text-transform: uppercase;
+}
+
+.section.about .dulce-delight > .title {
+  background-image: url(../image/about-dulce-delight-background.jpg);
+}
+
+.section.about .rainha-da-cocada > .title {
+  background-image: url(../image/about-rainha-da-cocada-background.jpg);
+}
+
+.section.about .dulce-delight .paragraph,
+.section.about .rainha-da-cocada .paragraph {
+  margin-top: 3vw;
+}
+
+.section.about .player {
+  background-color: #000;
+  border: solid 20px #82cabf;
+  margin: 5vw auto;
+  position: relative;
+  width: calc(80% - 40px);
+}
+
+.section.about .player:before {
+  background-color: #e8e8e8;
+  content: '';
+  display: block;
+  height: calc(100% + 40px);
+  left: -10px;
+  position: absolute;
+  top: -10px;
+  width: calc(100% + 40px);
+  z-index: -1;
+}
+
+.section.about .player iframe {
+  height: 39.062vw;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+}

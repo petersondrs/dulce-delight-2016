@@ -94,13 +94,13 @@
   transition: background-color ease-out 0.2s, color ease-out 0.1s;
 }
 
-.section .cancel {
+.section.contact .cancel {
   position: absolute;
   top: 2vw;
   right: 4vw;
 }
 
-.section .cancel .anchor {
+.section.contact .cancel .anchor {
   border: solid 0.3vw #ff7275;
   border-radius: 50%;
   display: block;
@@ -111,12 +111,12 @@
   width: 2.75vw;
 }
 
-.section .cancel .anchor:hover,
-.section .cancel .anchor:focus {
+.section.contact .cancel .anchor:hover,
+.section.contact .cancel .anchor:focus {
   border-color: #fff;
 }
 
-.section .cancel .anchor:after {
+.section.contact .cancel .anchor:after {
   color: #ff7275;
   content: '\e914';
   display: block;
@@ -129,7 +129,7 @@
   transition: color ease-out 0.2s;
 }
 
-.section .cancel .anchor:hover:after,
-.section .cancel .anchor:focus:after {
+.section.contact .cancel .anchor:hover:after,
+.section.contact .cancel .anchor:focus:after {
   color: #fff;
 }

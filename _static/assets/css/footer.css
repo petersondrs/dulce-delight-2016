@@ -197,33 +197,31 @@
 }
 
 .footer .battle-lab {
-  margin: 1.562vw 0 1.25vw 0;
-  position: relative;
+  background-color: #e5e5e5;
+  float: none;
+  clear: both;
+  text-align: right;
   width: 100%;
 }
 
-.footer .battle-lab:before {
-  background-color: #e5e5e5;
-  content: '';
-  display: block;
-  height: 200px;
-  left: 0;
-  position: absolute;
-  top: -1.562vw;
-  width: 100vw;
-  z-index: -1;
-}
-
 .footer .battle-lab .anchor {
-  background-image: url(../image/brand/battle-lab-132x33.png);
-  float: right;
-  height: 1.718vw;
-  margin: 0 4.739vw 0 auto;
-  transition: opacity ease-out 0.5s;
-  width: 6.875vw;
+  display: inline-block;
+  font-size: 0;
+  line-height: 1;
+  text-indent: 0;
 }
 
-.footer .battle-lab .anchor:hover,
-.footer .battle-lab .anchor:focus {
-  opacity: 0.5;
+.footer .battle-lab .anchor:before {
+  color: #000;
+  content: '\e006';
+  display: inline-block;
+  font-family: 'dulce-delight';
+  font-size: 8vw;
+  margin-right: 4.791vw;
+  transition: color ease-out 0.2s;
+}
+
+.footer .battle-lab .anchor:hover:before,
+.footer .battle-lab .anchor:focus:before {
+  color: #82cabf;
 }
